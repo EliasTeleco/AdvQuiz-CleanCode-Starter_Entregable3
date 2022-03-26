@@ -118,6 +118,7 @@ public class QuestionPresenter implements QuestionContract.Presenter {
     view.get().updateReply(isCorrect);
     view.get().displayQuestion(state);
   }
+  //
   
   @Override
   public void onNextButtonClicked() {
